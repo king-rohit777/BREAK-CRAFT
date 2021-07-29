@@ -4,7 +4,7 @@ level = 0
 var Brickimg = new Image();
 
 
-function reset() {
+function reset() {       
     document.location.reload()     
 }
 
