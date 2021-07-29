@@ -9,7 +9,7 @@ function reset() {
 }
 
 //Audio assets
-const game_start = new Audio('start_game.mp3');
+const game_start = new Audio('start_game.mp3');        
 const bounce_wall = new Audio('bounce_wall.mp3');
 const bounce_paddle = new Audio('paddle_drop.mp3');
 const break_brick = new Audio('break_brick.wav');
