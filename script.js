@@ -3,7 +3,7 @@ var ctx = canvas.getContext("2d");
 level = 0
 var Brickimg = new Image();
 
-
+        
 function reset() {       
     document.location.reload()     
 }
