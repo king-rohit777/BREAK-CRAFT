@@ -5,7 +5,7 @@ var Brickimg = new Image();
 
 
 function reset() {
-    document.location.reload()
+    document.location.reload()     
 }
 
 //Audio assets
