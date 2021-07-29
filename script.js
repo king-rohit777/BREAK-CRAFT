@@ -1,4 +1,4 @@
-var canvas = document.getElementById("can");
+var canvas = document.getElementById("can");     
 var ctx = canvas.getContext("2d");
 level = 0
 var Brickimg = new Image();
