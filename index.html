@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div id="sawo-container" style="height: 300px; width: 300px;"></div>
+    
     <div id="load-screen">
         <h1>Break-Craft</h1>
         <h3>Level1 &emsp;<button onclick="level1()">Start</button>&emsp;High score: <span id="high-score1" class="high-score"></span></h3>
@@ -38,23 +38,7 @@
 
     <script src="script.js"></script>
 
-    <script src="https://websdk.sawolabs.com/sawo.min.js"></script>    
-<script>
-    var config = {
-        // should be same as the id of the container created on 3rd step
-        containerID: "sawo-container",
-        // can be one of 'email' or 'phone_number_sms'
-        identifierType: "email",
-        // Add the API key copied from 2nd step
-        apiKey: "bf306610-45f8-473a-860f-829f109ea736",
-        // Add a callback here to handle the payload sent by sdk
-        onSuccess: (payload) => {
-            console.log(payload)
-        },
-    };
-    var sawo = new Sawo(config);
-    sawo.showForm();
-</script>
+    
 </body>
 
 </html>
